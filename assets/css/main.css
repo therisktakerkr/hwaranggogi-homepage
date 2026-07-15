@@ -458,3 +458,27 @@ html[lang='ko'] .heritage-closing h2{font-family:var(--ko-batang);letter-spacing
     min-height:100%;
   }
 }
+
+
+/* V32.1 mobile font reliability fix: force KoPubWorld Batang on every Korean text element. */
+html[lang='ko'] body,
+html[lang='ko'] body button,
+html[lang='ko'] body input,
+html[lang='ko'] body textarea,
+html[lang='ko'] body select,
+html[lang='ko'] body a,
+html[lang='ko'] body p,
+html[lang='ko'] body span,
+html[lang='ko'] body small,
+html[lang='ko'] body strong,
+html[lang='ko'] body em,
+html[lang='ko'] body address,
+html[lang='ko'] body summary,
+html[lang='ko'] body h1,
+html[lang='ko'] body h2,
+html[lang='ko'] body h3,
+html[lang='ko'] body h4,
+html[lang='ko'] body li,
+html[lang='ko'] body label {
+  font-family:'KoPubWorld Batang','KoPub Batang','Noto Serif KR','Batang','바탕',serif !important;
+}
