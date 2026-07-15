@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">신라 화랑을 모티프로 한 수묵풍 일러스트</title>
+<desc id="desc">산과 소나무를 배경으로 전통 복식의 젊은 인물이 서 있는 상징적 장면</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#21150f"/><stop offset="1" stop-color="#080707"/></linearGradient>
+  <radialGradient id="sun"><stop stop-color="#d1a05d" stop-opacity=".85"/><stop offset="1" stop-color="#9a4e21" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="810" cy="205" r="180" fill="url(#sun)" filter="url(#soft)"/>
+<circle cx="810" cy="205" r="78" fill="#c88a43" opacity=".32"/>
+<!-- distant mountains -->
+<path d="M0 560 L170 390 300 510 470 310 620 470 770 330 940 490 1080 360 1200 500V900H0Z" fill="#15110f"/>
+<path d="M0 620 L210 470 360 570 560 420 720 560 900 430 1050 560 1200 490V900H0Z" fill="#0e0d0c"/>
+<!-- pine tree -->
+<g stroke="#5d4736" stroke-width="12" stroke-linecap="round" fill="none" opacity=".8">
+ <path d="M160 790 C190 610 190 430 235 250"/>
+ <path d="M210 430 C130 390 105 355 70 315"/>
+ <path d="M220 350 C295 330 340 290 370 250"/>
+</g>
+<g fill="#1e251d" opacity=".95">
+ <path d="M58 318 C105 270 170 260 215 305 C165 315 115 330 58 318Z"/>
+ <path d="M130 390 C185 335 250 330 302 375 C245 390 190 405 130 390Z"/>
+ <path d="M250 330 C305 275 375 275 430 320 C370 333 312 345 250 330Z"/>
+</g>
+<!-- symbolic hwarang figure, intentionally illustrative -->
+<g transform="translate(555 235)">
+ <path d="M120 95 C95 118 92 165 110 196 L153 194 C174 159 168 116 145 96Z" fill="#d4bda2"/>
+ <path d="M104 104 C108 57 158 47 174 86 C179 99 174 116 169 128 C153 111 133 101 104 104Z" fill="#171310"/>
+ <path d="M116 190 L82 284 42 540 218 540 180 286 153 191Z" fill="#ded2bd"/>
+ <path d="M80 286 L18 420 54 438 112 328Z" fill="#b14f32"/>
+ <path d="M182 285 L244 420 210 438 150 330Z" fill="#b14f32"/>
+ <path d="M81 286 L180 286 157 385 102 385Z" fill="#2f4a44"/>
+ <path d="M78 390 L45 545 105 545 129 410 156 545 218 545 181 390Z" fill="#242220"/>
+ <path d="M42 540 L22 615 98 615 106 540Z" fill="#171515"/>
+ <path d="M218 540 L238 615 162 615 155 540Z" fill="#171515"/>
+ <path d="M66 276 Q130 240 196 276" stroke="#c99a5b" stroke-width="12" fill="none"/>
+ <circle cx="131" cy="283" r="11" fill="#c99a5b"/>
+ <path d="M89 226 Q131 250 173 226" stroke="#9b3e2a" stroke-width="8" fill="none"/>
+ <path d="M106 83 Q132 58 158 83" stroke="#c99a5b" stroke-width="6" fill="none"/>
+ <path d="M244 418 L292 605" stroke="#9f7448" stroke-width="12" stroke-linecap="round"/>
+</g>
+<!-- ground mist -->
+<path d="M0 720 C240 650 390 780 620 700 C860 620 1000 750 1200 680V900H0Z" fill="#080807" opacity=".8"/>
+<path d="M0 750 C260 710 420 810 660 740 C900 670 1030 790 1200 730" stroke="#b9854d" stroke-opacity=".2" stroke-width="2" fill="none"/>
+<text x="930" y="790" fill="#c99a5b" opacity=".58" font-family="serif" font-size="42">花郞</text>
+</svg>
