@@ -665,3 +665,50 @@ html[lang='ko'] .instagram-v26-copy h2 {
     line-height: 1.08;
   }
 }
+
+/* =========================================================
+   V31.1 — Korean title typography unified with Chosun Gungsuh
+   Applies only to the Korean page on desktop and mobile.
+   English typography remains unchanged.
+   ========================================================= */
+@font-face {
+  font-family: 'ChosunGs';
+  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/ChosunGs/ChosunGs.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/fonts-archive/ChosunGs/ChosunGs.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html[lang='ko'] .hero h1,
+html[lang='ko'] .brush-title,
+html[lang='ko'] .section-title h2,
+html[lang='ko'] .location-copy h2,
+html[lang='ko'] .contact-band h2,
+html[lang='ko'] .source-intro h2,
+html[lang='ko'] .promise-row h3,
+html[lang='ko'] .history-copy h2,
+html[lang='ko'] .heritage-closing h2,
+html[lang='ko'] .signature-plan h3,
+html[lang='ko'] .instagram-v26-copy h2 {
+  font-family: 'ChosunGs', '궁서', 'Gungsuh', serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+/* Keep the same font selection at every Korean mobile breakpoint. */
+@media (max-width: 900px) {
+  html[lang='ko'] .hero h1,
+  html[lang='ko'] .brush-title,
+  html[lang='ko'] .section-title h2,
+  html[lang='ko'] .location-copy h2,
+  html[lang='ko'] .contact-band h2,
+  html[lang='ko'] .source-intro h2,
+  html[lang='ko'] .promise-row h3,
+  html[lang='ko'] .history-copy h2,
+  html[lang='ko'] .heritage-closing h2,
+  html[lang='ko'] .signature-plan h3,
+  html[lang='ko'] .instagram-v26-copy h2 {
+    font-family: 'ChosunGs', '궁서', 'Gungsuh', serif !important;
+  }
+}

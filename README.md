@@ -1,3 +1,10 @@
+# Hwarang Gogi V31.1
+
+- Unified Korean display headings with Chosun Gungsuh (`ChosunGs`) on PC and mobile.
+- Applied only to `/ko/`; the English page typography is unchanged.
+- Added Korean font fallbacks for temporary web-font loading failures.
+- Retained the V31 horizontal-scroll stability fixes.
+
 # Hwarang Gogi Website — V31 Stable
 
 ## V31 changes
