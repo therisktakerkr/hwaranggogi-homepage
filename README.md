@@ -67,3 +67,8 @@ Desktop Hero copy is left-aligned so the video remains visually open on the righ
 
 ## V28 변경사항
 - 한국어 Instagram 섹션 헤드라인을 `95만명이 / 시청한 / 화랑고기` 3줄 구성으로 변경했습니다.
+
+
+## V29.2 direction-link fix
+- All Google Maps direction buttons now search only for `40 Wausan-ro 23-gil, Mapo-gu`.
+- Restaurant-name keywords were removed to prevent failed address matching.
