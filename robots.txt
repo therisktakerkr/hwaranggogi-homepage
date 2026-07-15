@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hwaranggogihd.com/sitemap.xml
+Sitemap: https://hwarang-hongdae.example/sitemap.xml
