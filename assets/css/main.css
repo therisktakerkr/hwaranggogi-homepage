@@ -461,3 +461,44 @@ html[lang='ko'] .heritage-closing h2{font-family:'Nanum Brush Script',cursive;le
 
 /* V29.1 mobile Korean brush font consistency */
 html[lang='ko'] .brush-title,html[lang='ko'] .section-title h2,html[lang='ko'] .location-copy h2,html[lang='ko'] .contact-band h2,html[lang='ko'] .source-intro h2,html[lang='ko'] .promise-row h3,html[lang='ko'] .history-copy h2,html[lang='ko'] .heritage-closing h2,html[lang='ko'] .signature-plan h3,html[lang='ko'] .instagram-v26-copy h2{font-family:'Nanum Brush Script',cursive!important;font-weight:400!important;}
+
+/* V29.1 — Mobile visit video overlay refinement */
+@media (max-width: 520px) {
+  .location-video-badge {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 7px 9px;
+    background: rgba(8, 8, 8, .58);
+    border-color: rgba(255, 255, 255, .12);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+  }
+  .location-video-badge span {
+    flex: 0 0 auto;
+    font-size: 7px;
+    letter-spacing: .12em;
+    white-space: nowrap;
+  }
+  .location-video-badge strong {
+    display: block;
+    margin: 0;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: left;
+  }
+  .location-video:before {
+    background: linear-gradient(0deg, rgba(0,0,0,.23), transparent 28%);
+  }
+}
+
+@media (max-width: 380px) {
+  .location-video-badge span { display: none; }
+  .location-video-badge strong { font-size: 9.5px; }
+}
