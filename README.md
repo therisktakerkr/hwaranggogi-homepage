@@ -72,11 +72,3 @@ Desktop Hero copy is left-aligned so the video remains visually open on the righ
 ## V29.2 direction-link fix
 - All Google Maps direction buttons now search only for `40 Wausan-ro 23-gil, Mapo-gu`.
 - Restaurant-name keywords were removed to prevent failed address matching.
-
-
-## V30 production fixes
-- Forced Korean brush-heading font consistently on mobile browsers.
-- Added cache-busting versions to CSS and JavaScript (`v=30.0`).
-- Reduced Korean mobile visit/address typography and the video-guide overlay.
-- Increased the visible mobile route-video area.
-- Verified every Google Maps action searches only `40 Wausan-ro 23-gil, Mapo-gu`.
