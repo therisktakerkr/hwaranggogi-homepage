@@ -98,3 +98,24 @@
   };
   render();
 })();
+
+/* Load the Instagram embed script only once the Instagram section actually
+   scrolls into view, instead of on every page load. Cuts an unconditional
+   third-party script + iframe from the initial page weight. */
+(()=>{
+  const section=document.getElementById('instagram');
+  if(!section) return;
+  let loaded=false;
+  const loadEmbed=()=>{
+    if(loaded) return;
+    loaded=true;
+    const script=document.createElement('script');
+    script.async=true;
+    script.src='https://www.instagram.com/embed.js';
+    document.body.appendChild(script);
+  };
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(entry.isIntersecting){loadEmbed();observer.disconnect();}
+  }),{rootMargin:'200px 0px'});
+  observer.observe(section);
+})();

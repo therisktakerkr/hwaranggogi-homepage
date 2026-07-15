@@ -1,3 +1,8 @@
+## Production domain
+
+- https://hwaranggogihd.com
+- Korean: https://hwaranggogihd.com/ko/
+
 # Hwarang Gogi Hongdae — V10 Deployable Static Site
 
 ## Included

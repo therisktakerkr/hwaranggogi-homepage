@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hwarang-hongdae.example/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hwarang-hongdae.example/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://hwarang-hongdae.example/ko/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hwarang-hongdae.example/"/>
+    <loc>https://hwaranggogihd.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hwaranggogihd.com/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hwaranggogihd.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hwaranggogihd.com/"/>
   </url>
   <url>
-    <loc>https://hwarang-hongdae.example/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hwarang-hongdae.example/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://hwarang-hongdae.example/ko/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hwarang-hongdae.example/"/>
+    <loc>https://hwaranggogihd.com/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hwaranggogihd.com/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hwaranggogihd.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hwaranggogihd.com/"/>
   </url>
 </urlset>
