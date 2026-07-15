@@ -482,3 +482,31 @@ html[lang='ko'] body li,
 html[lang='ko'] body label {
   font-family:'KoPubWorld Batang','KoPub Batang','Noto Serif KR','Batang','바탕',serif !important;
 }
+
+/* V32.2 — Mobile hero video: reduce excessive crop on portrait screens */
+@media (max-width: 760px) {
+  .hero-bg {
+    background: #050505 url('../img/hero-v14-poster.jpg') center center / cover no-repeat;
+  }
+
+  .hero-bg video,
+  .v15-hero .hero-bg video,
+  .v16-hero .hero-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center 38%;
+    transform: scale(1.18);
+    transform-origin: center 38%;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-bg video,
+  .v15-hero .hero-bg video,
+  .v16-hero .hero-bg video {
+    transform: scale(1.12);
+    object-position: center 34%;
+    transform-origin: center 34%;
+  }
+}
